@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="110dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_margin="3dp"
+    app:cardCornerRadius="4dp"
+    android:background="#ffffff"
+    android:id="@+id/llHomeRecyclerContainer">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:orientation="horizontal"
+        android:background="#ffffff"
+        android:weightSum="6">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="4.8"
+            android:layout_height="match_parent">
+
+
+            <ImageView
+                android:id="@+id/imgHomeRestaurantImage"
+                android:layout_weight="1.5"
+                android:layout_width="0dp"
+                android:layout_height="110dp"
+                android:padding="6dp"
+                android:layout_marginStart="8dp"
+                android:src="@mipmap/ic_launcher"
+                android:scaleType="centerCrop"/>
+
+            <RelativeLayout
+                android:layout_weight="3.3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/txtHomeRestaurantName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Name of the book"
+                    android:layout_marginTop="10dp"
+                    android:padding="8dp"
+                    android:textSize="20sp"
+                    android:textColor="#000000"/>
+
+                <TextView
+                    android:id="@+id/txtHomeCostForOne"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:text="Rs. 299/person"
+                    android:padding="8dp"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="18sp"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1.2">
+
+            <TextView
+                android:id="@+id/txtHomeAddFavouriteImageBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_favourite_border"
+                android:backgroundTint="@android:color/holo_red_dark"
+                android:textSize="18sp"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:id="@+id/txtHomeRestaurantRating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:text="4.5"
+                android:textColor="#F39C12"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="20dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
+

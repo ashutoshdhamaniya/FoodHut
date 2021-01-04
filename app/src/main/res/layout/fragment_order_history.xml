@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.OrderHistoryFragment">
+
+    <TextView
+        android:id="@+id/txtListOrder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/your_previous_orders_are_listed_below"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_margin="4dp"/>
+
+    <View
+        android:id="@+id/orderHistoryView"
+        android:layout_below="@+id/txtListOrder"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="4dp"
+        android:background="@color/colorPrimaryDark"/>
+    
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_below="@+id/orderHistoryView"
+        android:id="@+id/orderHistoryRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible"
+        android:id="@+id/emptyOrderHistoryLayout">
+
+        <ImageView
+            android:id="@+id/emptyOrderHistoryIcon"
+            android:layout_width="350dp"
+            android:layout_height="300dp"
+            android:background="@drawable/empty_order_history"
+            android:layout_centerInParent="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/you_haven_t_placed_any_orders_yet"
+            android:layout_below="@+id/emptyOrderHistoryIcon"
+            android:layout_centerHorizontal="true"
+            android:textSize="25dp"
+            android:fontFamily="@font/almendra_display"
+            android:textColor="#000000"
+            android:textStyle="bold"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/orderHistoryProgressLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible"
+        android:background="#fff">
+
+        <ProgressBar
+            android:id="@+id/orderHistoryProgressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

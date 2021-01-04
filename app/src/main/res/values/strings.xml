@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">Food Hut</string>
+    <string name="name_min_3_characters">Name (Min. 3 Characters)</string>
+    <string name="email_address">Email Address</string>
+    <string name="mobile_number_10_digits">Mobile Number (10 digits)</string>
+    <string name="delivery_address">Delivery Address</string>
+    <string name="password_min_6_characters">Password (Min. 6 Characters)</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="register">REGISTER</string>
+    <string name="password">Password</string>
+    <string name="login">LOG IN</string>
+    <string name="forget_password">Forget Password ?</string>
+    <string name="don_t_have_an_account_sign_up_now">Don\'t have an account? Sign up now</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Home</string>
+    <string name="my_profile">My Profile</string>
+    <string name="favourites_restaurants">Favourites Restaurants</string>
+    <string name="order_history">Order History</string>
+    <string name="log_out">Log Out</string>
+    <string name="faqs">FAQs</string>
+
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+
+    <string name="preferences_file_name">DetailsPreferences</string>
+    <string name="successful_placed">Your order will be delivered to your desired location!</string>
+    <string name="enter_your_registered_mobile_number_and_email_below">Enter your registered mobile number and email below :</string>
+    <string name="submit">Submit</string>
+    <string name="otp">OTP</string>
+    <string name="restaurant_name">Restaurant Name</string>
+    <string name="your_previous_orders_are_listed_below">Your previous orders are listed below :</string>
+    <string name="rating">Rating</string>
+    <string name="cost_low_to_high">Cost (low to high)</string>
+    <string name="cost_high_to_low">Cost (high to low)</string>
+    <string name="a_complete_hub_for_delicious_food">A COMPLETE HUB FOR DELICIOUS FOOD</string>
+    <string name="enter_your_otp">Enter your OTP</string>
+    <string name="new_password_min_6_characters">New Password (Min. 6 Characters)</string>
+    <string name="enter_the_received_otp_below">Enter the received OTP below</string>
+    <string name="order_confirmed">Order Confirmed !!!</string>
+
+    // Faq's
+
+    <string name="question1">How long does it take to deliver the food?</string>
+    <string name="answer1">It depends upon the orders that the restaurant have at that present time and how long does it take for cooking the food, as soon as the food is ready our executive pick ups the food from the restaurant and moves out to deliver it to your location.
+    \nUsually this whole process takes 30 to 45 minutes approximately.</string>
+    <string name="question2">What are the different modes of payments provided by you?</string>
+    <string name="answer2">We accept payments from the following sources :
+        \n1 : Credit and Debit cards
+        \n2 : Paytm /Google Pay /Phone Pe/ UPI
+        \n3 : Cash On Delivery</string>
+    <string name="question3">Is there any variation in the price of the food in ordering online?</string>
+    <string name="answer3">The prices are usually lower or same as that of the actual prices of the restaurants.
+    \nHowever, on ordering online you receive many new vouchers and cashback offers which you can use during the order to get the food at more lower price.</string>
+    <string name="question4">How much do you charge to deliver the food at our location?</string>
+    <string name="answer4">It depends upon the total amount of your cart i.e., if the cart value is greater than Rs.129 then the delivery cost is free, and if your cart value is less than Rs.129 then we will charge Rs.20 for delivering the food at your desired location.</string>
+    <string name="question5">Why we are supposed to rate the restaurant and the delivery person?</string>
+    <string name="answer5">Rating the restaurant and delivery executive is not mandatory, it is up to you whether you want to rate or not.
+    /nHowever rating helps other users to know about the services of the restaurants and delivery executive i.e., What is quality of the food provided by restaurant, How long do restaurants take to cook your food, How long does delivery executive takes to deliver the food, etc.</string>
+    <string name="you_do_not_have_any_favourites_restaurants">You do not have any favourites restaurants</string>
+    <string name="you_haven_t_placed_any_orders_yet">You haven\'t placed any orders yet</string>
+
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_margin="2dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txtRecSingleRowRestaurantName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/restaurant_name"
+            android:padding="4dp"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:layout_margin="6dp"/>
+
+        <TextView
+            android:id="@+id/txtRecSingleRowOrderDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date(3/6/2001)"
+            android:layout_alignParentRight="true"
+            android:padding="4dp"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:layout_margin="6dp"/>
+
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerSingleRowRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimary"/>
+
+
+</LinearLayout>

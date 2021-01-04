@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:orientation="horizontal"
+    android:layout_marginBottom="4dp"
+    android:weightSum="10">
+
+    <TextView
+        android:id="@+id/txtMenuRecyclerSerialNumber"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1.2"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:text="1" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="6"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtMenuRecyclerItemName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Menu Items of Restaurant"
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="6dp"/>
+
+        <TextView
+            android:id="@+id/txtMenuRecyclerItemCostForOne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rs. 60"
+            android:textSize="15sp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtMenuRecyclerAddButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2.8"
+        android:text="Add"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:padding="3dp"
+        android:background="#FFA500"
+        android:layout_marginEnd="6dp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"/>
+
+</LinearLayout>
